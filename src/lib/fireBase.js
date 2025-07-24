@@ -6,7 +6,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/database';
 const firebaseConfig = {
-  apiKey: "Your Key",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "codecove-c08fb.firebaseapp.com",
   projectId: "codecove-c08fb",
   storageBucket: "codecove-c08fb.firebasestorage.app",

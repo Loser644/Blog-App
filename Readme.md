@@ -48,6 +48,8 @@ Irish
 ├── vite.config.js           
 └── README.md                
 ```
+## ⚙️Also create a .env > VITE_API_KEY = Your firekey here
+
 ## 📄 License
 
 This project is open source for personal and non-commercial use.  
