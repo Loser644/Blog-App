@@ -4,6 +4,13 @@
 
 **IRISH** is a clean, modern blogging platform built using **React** and **Firebase Realtime Database**, where users can share blogs about **tech**, **personal life**, and **programming humor**. Users can interact with content, explore others’ profiles, report inappropriate posts, and follow fellow writers.
 
+## 🧑‍💻 Live Demo
+
+🚀 You can check out the deployed version of our app here:  
+🔗 [Blog App on Netlify](https://warchild.netlify.app/)
+
+
+
 ## ✨ Features
 
 ### 🧑‍💻 For Users:
@@ -29,6 +36,8 @@
 | Firebase   | Realtime DB + Auth              |
 | Netlify    | Hosting (Live Deployment)       |
 | CSS        | Custom styling for UI/UX        |
+
+## ✅ [![Netlify Status](https://api.netlify.com/api/v1/badges/36bb9d2e-a147-4df6-8b5b-9048315bd479/deploy-status)](https://app.netlify.com/sites/warchild/deploys)
 
 ---
 
