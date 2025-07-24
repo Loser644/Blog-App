@@ -33,20 +33,20 @@
 ---
 
 ## 📂 Project Structure
-Irish
-├── public/                  # Static public files (e.g. favicon, index.html)
-├── src/                     # Main application source code
-│   ├── assets/              # Images, icons, logos
-│   ├── Component/           # Reusable React components
-│   ├── lib/                 # Firebase config and utility libraries
-│   ├── Page/                # Route-level pages (Home, Explore, Profile, etc.)
-│   └── Root.jsx             # App entry point with routing/layout
-├── .gitignore               # Git ignored files and folders
-├── index.html               # Main HTML file
-├── package.json             # Project dependencies and scripts
-├── package-lock.json        # Auto-generated lock file
-├── vite.config.js           # Vite configuration
-└── README.md               
+-Irish
+-├── public/                  # Static public files (e.g. favicon, index.html)
+-├── src/                     # Main application source code
+-│   ├── assets/              # Images, icons, logos
+-│   ├── Component/           # Reusable React components
+-│   ├── lib/                 # Firebase config and utility libraries
+-│   ├── Page/                # Route-level pages (Home, Explore, Profile, etc.)
+-│   └── Root.jsx             # App entry point with routing/layout
+-├── .gitignore               # Git ignored files and folders
+-├── index.html               # Main HTML file
+-├── package.json             # Project dependencies and scripts
+-├── package-lock.json        # Auto-generated lock file
+-├── vite.config.js           # Vite configuration
+-└── README.md               
 
 ## 📄 License
 
