@@ -1,6 +1,5 @@
 # 🌐 IRISH — A React + Firebase Blog Platform
 
-![screenshot](./src/assets/Image/scrnShot.png) 
 
 **IRISH** is a clean, modern blogging platform built using **React** and **Firebase Realtime Database**, where users can share blogs about **tech**, **personal life**, and **programming humor**. Users can interact with content, explore others’ profiles, report inappropriate posts, and follow fellow writers.
 
@@ -61,6 +60,6 @@ Irish
 
 ## 📄 License
 
-This project is open source for personal and non-commercial use.  
-Commercial use requires permission.  
-Please read the [LICENSE](./LICENSE) file for full terms.
+⚠️ This project is open-source for personal/non-commercial use.  
+**Commercial usage is prohibited without permission.**  
+ 👀 See [LICENSE](./LICENSE) for details.
