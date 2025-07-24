@@ -1,6 +1,7 @@
 node_modules
 node_modules/
 dist/
+src/lib/
 .env
 .DS_Store
 .vite/
