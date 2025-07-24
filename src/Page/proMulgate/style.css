@@ -1,0 +1,67 @@
+.promulDiv{
+    height: 100%; width: 100%;
+    position: relative;
+    display: flex;
+}
+.createDiv,.editDiv{
+    border-left: 1px solid;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    transition: 3s ease-in-out;
+    .inputDiv>select{
+        padding: 10px;
+        width: 60%;
+        border-radius: 10px;
+        border-color: gray;
+    }
+    .inputDiv{
+        position: relative;
+    }
+    .inputDiv>textarea{
+        resize: none;
+        height: 100px;
+        padding: 5px;
+        width: 100%;
+    }
+    .imgInput{
+        margin-top: 20px;
+        height: 100px !important;
+        display: flex;
+        justify-content: flex-start !important;
+        flex-direction: row;
+        gap: 20px;
+        img{
+            height: 100px; width: 100px;
+            object-fit: cover;
+        }
+        label{
+            position: relative !important;
+            display: flex;
+            align-items: center;
+            cursor:  pointer !important;
+        }
+    }
+}
+.tableDiv{
+    border-left: 1px solid;
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #54585ebe;
+}   
+@media (max-width:450px) {
+    .promulDiv{
+        flex-direction: column;
+        overflow-y: scroll !important;
+        height: 90%;
+        top: -50px !important;
+    }
+    .editDiv{
+        flex: auto;
+    }
+}

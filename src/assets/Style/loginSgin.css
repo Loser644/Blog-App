@@ -1,0 +1,231 @@
+.loginSgin{
+    height: 100vh; width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f7;
+}
+.logComp{
+    height: 100vh; width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    .textAndLog{
+        height: 350px; width: 40%;
+
+        padding: 10px;
+        img{
+            height: 150px; width: 200px;
+            object-fit: contain;
+        }
+    }
+}
+.loginDiv{
+    height: 450px; width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, .4) ;
+}
+.formDiv{
+    height: 100%; width: 100%;
+    padding: 10px;
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        h1{
+            font-size: 3rem;
+            background: url('https://i.postimg.cc/PxVGR53p/gradientbg.jpg') center;
+            background-size: cover;
+            background-clip: text;
+            color: transparent;
+            animation: animate 10s linear infinite;
+            &:hover{
+                animation: animate 4s linear infinite;
+            }
+        }
+        .inputDiv{
+            height: 60px; width: 80%;
+            
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input{
+                all: unset;
+                padding: 14px;
+                width: 75%;
+                border-radius: 12px;
+                border: 2px solid transparent;
+                box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+                transition: .7s ease-in-out;
+
+                &:focus{
+                    border: 3px solid;
+                    box-shadow: none;
+                    border-color: blue;
+                }
+                &:focus~label{
+                    transform: translate(-5px , -40px);
+                            i{
+                                color: blue;
+                            }
+                }
+            }
+            label{
+                position: absolute;
+                left: 40px;
+                i{  
+                    display: flex;
+                    gap: 5px;
+                    color: gray;
+                }
+                transition: .7s;
+                cursor: text;
+            }
+            p{
+                color: blue;
+                font-size: large;
+                font-weight: bold;
+                cursor: pointer;
+                transform: .3s;
+                &:hover{
+                    color: rgb(143, 143, 252);
+                    scale: 1.1;
+                }
+            }
+            .login-btn{
+                background-color: rgb(14, 49, 222);
+
+                &:hover{
+                    background-color: rgba(14, 50, 252, 0.563);
+                        
+                }
+            }
+            .sgin-btn{
+                background-color: rgb(6, 222, 17);
+
+                &:hover{
+                    background-color: rgba(17, 222, 48, 0.648);
+                            font-size: large;
+                            transform: scale(0.9);
+                }
+            }
+            .btn{
+                height: 80%; width: 70%;
+                border: none;
+                outline: none;
+                color: white;
+                font-size: larger;
+                font-weight: 800;
+                cursor: pointer;
+                border-radius: 10px;
+                transition: .5s ease-in-out;
+            }
+            .showPassDiv{
+                position: absolute;
+                right: 40px;
+                i{
+                    font-size: larger;
+                    cursor: pointer;
+                    color: rgb(80, 80, 80);
+                }
+            }
+        }
+    }
+    .c-acout{
+        position: absolute;
+        bottom: -60px; left: 130px;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: rgb(25, 219, 45);
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(25, 219, 44, 0.605);
+        }
+    }
+}
+.sginUPdiv{
+    height: 550px; width: 450px;
+     background-color: white;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, .4) ;
+
+    .l-acout{
+         position: absolute;
+        bottom: -50px; left: 200px;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: rgb(14, 49, 222);
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(14, 49, 222, 0.567);
+        }
+    }
+}
+@keyframes animate {
+    to{background-position-x:-500px ;}
+}
+.userInputErr{
+    animation: shake .5s;
+    input{
+        border-color: red !important;
+        box-shadow: none !important;
+    }
+    label>i{
+        color: red !important;
+    }
+}
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  15% { transform: translateX(-8px); }
+  30% { transform: translateX(8px); }
+  45% { transform: translateX(-4px); }
+  60% { transform: translateX(6px); }
+  75% { transform: translateX(-4px); }
+  90% { transform: translateX(5px); }
+ 
+}
+@media (max-width:800px) {
+    .loginDiv{
+        height: 400px; width: 400px;
+    }
+}
+@media (max-width:430px) {
+    .logComp .textAndLog{
+        position: absolute;
+        top: 0px;
+
+        h2{
+            display: none;
+        }
+    }
+    .c-acout{
+        left: 100px !important;
+    }
+    .l-acout{
+        left: 170px !important;
+    }
+}
