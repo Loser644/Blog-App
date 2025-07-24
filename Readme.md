@@ -46,7 +46,7 @@ Irish
 ├── package.json             # Project dependencies and scripts
 ├── package-lock.json        # Auto-generated lock file
 ├── vite.config.js           # Vite configuration
-└── README.md                # Project documentation
+└── README.md               
 
 ## 📄 License
 

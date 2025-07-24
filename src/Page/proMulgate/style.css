@@ -4,7 +4,6 @@
     display: flex;
 }
 .createDiv,.editDiv{
-    border-left: 1px solid;
     flex: 1;
     display: flex;
     align-items: center;
@@ -53,6 +52,7 @@
     align-items: flex-start;
     justify-content: center;
     background: #54585ebe;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
 }   
 @media (max-width:450px) {
     .promulDiv{
