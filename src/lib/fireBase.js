@@ -6,7 +6,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/database';
 const firebaseConfig = {
-  apiKey: "AIzaSyCH2F8jBrrJjwESHrQzghhBRCkfvQxISTM",
+  apiKey: "Your Key",
   authDomain: "codecove-c08fb.firebaseapp.com",
   projectId: "codecove-c08fb",
   storageBucket: "codecove-c08fb.firebasestorage.app",
